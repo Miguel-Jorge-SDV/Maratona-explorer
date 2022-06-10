@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(48, 12, 71);
+  color: white;
+  font-family: sans-serif;
+}
+
+#box {
+  text-align: center;
+  margin-top: 125px;
+  margin-inline: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 400px;
+  height: 340px;
+  max-width: 80%;
+}
+
+h1, p {
+  opacity: 0.9;
+}
+
+input, button {
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+input {
+  margin-top: 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  width: 80%;
+  border: none;
+  color: white;
+  transition: filter 0.3s;
+  background-image: url(estrelas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+  color: rgb(77, 255, 201);
+}
